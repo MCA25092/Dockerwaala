@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('Checkout'){
       steps{
-        git url: 'https://github.com/MCA25092/Dockerwaala', branch: 'master'
+        git url: 'https://github.com/MCA25092/Dockerwaala', branch: 'main'
       }
     }
     stage('Build Image'){
